@@ -1,0 +1,179 @@
+<<<<<<< HEAD
+@keyframes example {
+    from {color: blue;}
+    to {color: red;}
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.heading {
+    font-size: 3rem;
+    font-family: cursive;
+    color: blue;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+}
+
+.select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.boxes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.score {
+    font-size: 4rem;
+    font-family: cursive;
+    color: cyan;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .boxes {
+        width: 80px;
+        height: 80px;
+    }
+
+    .score {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .boxes {
+        width: 60px;
+        height: 60px;
+    }
+
+    .score {
+        font-size: 2rem;
+    }
+}
+=======
+@keyframes example {
+    from {color: blue;}
+    to {color: red;}
+  }
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    
+}
+.select{
+    display: flex;
+    flex-direction: row;
+}
+.boxes{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    /* border: 2px solid blue; */
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.heading{
+    font-size: 50px;
+    font-family: cursive;
+    color: blue;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    margin-top: -130px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.left
+{
+    width: 630px;
+    margin-right: 100px;
+    text-align: center;
+    margin-left: -10px;
+}
+.right{
+    width: 100px;
+    text-align: center;
+    margin-left: 150px;
+    padding-left: 100px;
+}
+.score{
+    margin-top: 150px;
+    font-size: 90px;
+    font-family: cursive;
+    color: cyan;
+    font-weight: bold;
+    margin-left: 110px;
+}
+.boxes{
+    cursor: pointer;
+}
+#rock{
+    display: none;
+}
+#paper{
+    display: none;
+}
+#scissors{
+    display: none;
+}
+#score2{
+    margin-left: 50px;
+    margin-top: 350px;
+}
+>>>>>>> 20e84225dafe8a9c3e5dde0baab8a5664d7b8913

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let one=localStorage.one;
 let second=localStorage.second;
 let head=document.getElementById("heading");

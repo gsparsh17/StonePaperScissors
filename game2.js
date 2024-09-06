@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-// Get DOM elements
+
 const rock1 = document.getElementById("rock");
 const paper1 = document.getElementById("paper");
 const scissors1 = document.getElementById("scissors");

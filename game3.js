@@ -8,3 +8,4 @@ if(one==10){
 }
 if(second==10){
     head.innerHTML="CPU WIN";
+}

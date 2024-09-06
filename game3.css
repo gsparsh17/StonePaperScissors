@@ -44,7 +44,7 @@ body {
     text-decoration: none;
     padding: 15px 30px; /* Adjust padding */
     border-radius: 5px;
-    border: 2px solid blue; /* Add border for visual effect */
+/*     border: 2px solid blue; /* Add border for visual effect */ */
 }
 
 @media (max-width: 768px) {

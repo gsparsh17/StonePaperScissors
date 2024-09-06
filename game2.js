@@ -108,9 +108,6 @@ function redis(){
     scissors2.style.display='block';
     paper2.style.display='block';
     rock2.style.display='block';
-    rock2.style.marginLeft='30px';
-    paper2.style.marginLeft='30px';
-    scissors2.style.marginLeft='30px';
 }
 function result(){
     if(one==10||second==10){
